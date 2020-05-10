@@ -1,0 +1,13 @@
+.idea/
+.vscode/
+node_modules/
+build/
+temp/
+dist
+prof
+
+tmp/*
+!tmp/.gitkeep
+
+
+puzzle-files
