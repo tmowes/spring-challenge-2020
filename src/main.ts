@@ -9,7 +9,7 @@ for (let i = 0; i < height; i++) {
   const row: string = readline() // one line of the grid: space " " is floor, pound "#" is wall
 }
 
-//teste
+// teste
 // game loop
 while (true) {
   var inputs: string[] = readline().split(' ')
@@ -22,9 +22,9 @@ while (true) {
     const mine: boolean = inputs[1] !== '0' // true if this pac is yours
     const x: number = parseInt(inputs[2]) // position in the grid
     const y: number = parseInt(inputs[3]) // position in the grid
-    const typeId: string = inputs[4] // unused in wood leagues
-    const speedTurnsLeft: number = parseInt(inputs[5]) // unused in wood leagues
-    const abilityCooldown: number = parseInt(inputs[6]) // unused in wood leagues
+    // const typeId: string = inputs[4] // unused in wood leagues
+    // const speedTurnsLeft: number = parseInt(inputs[5]) // unused in wood leagues
+    // const abilityCooldown: number = parseInt(inputs[6]) // unused in wood leagues
   }
   const visiblePelletCount: number = parseInt(readline()) // all pellets in sight
   for (let i = 0; i < visiblePelletCount; i++) {
